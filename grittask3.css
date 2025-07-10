@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 80px 1fr 90px;
+  grid-template-rows: 250px 1fr 80px;
+  gap: 10px;
+  border: 2px dashed black;
+}
+
+.cell {
+  background-color: lightgreen;
+  border: 2px solid green;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
